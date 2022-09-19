@@ -1,6 +1,6 @@
 # POO
 Oriented Object Programming
 
-Conceptos
-Clases y Objetos
-Métodos (Parámetros y Argumentos)
+1. Conceptos
+2. Clases y Objetos
+3. Métodos (Parámetros y Argumentos)
