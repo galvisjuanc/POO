@@ -1,2 +1,0 @@
-# POO
-Oriented Object Programming
