@@ -1,0 +1,29 @@
+CONCEPTOS BÁSICOS DE PROGRAMACIÓN ORIENTADA A OBJETOS (POO)
+
+La POO es una forma especial de programar, más cercana a como expresaríamos las cosas en la vida real que otros tipos
+de programación.
+
+COMO SE PIENSA EN OBJETOS...
+
+Un auto es un objeto. Y en programación, un objeto tiene: Atributos (Características) y Métodos (Acciones).
+
+* atributos: color, marca, km
+* métodos: encender, acelerar, frenar
+
+Una fracción también es un objeto. Porque tiene atributos (numerador, denominador) y acciones (simplificarse, sumarse o
+restarse con otra fracción).
+
+CLASES EN POO
+
+Es un conjunto de objetos con características similares.
+
+** Coche
+*** color, marca, km
+*** encender(), acelerar(), frenar()
+
+OBJETOS EN POO
+
+A través de la clase, se pueden instanciar objetos!
+
+** Coche1                                       ** Coche2
+*** color: blanco, marca: audi, km: 0           *** color: rojo, marca: ferrari, km: 100

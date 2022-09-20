@@ -1,0 +1,23 @@
+CREACION DE CLASES Y OBJETOS
+
+Para crear una clase:
+
+    public class Coche{
+        ________________________________
+        ________________________________
+    }
+
+Donde:
+* public es un modificador de acceso.
+* class es una palabra reservada que indica clase.
+* coche es el nombre de la clase
+
+Para crear un objeto, se hace así:
+
+** Coche coche1 = new Coche(); Coche coche2 = new Coche();
+
+Donde:
+* nombre de la clase es Coche
+* nombre del objeto es coche1 o coche2
+* new es una palabra reservada que indica nuevo objeto a partir de la clase.
+* el constructor es Coche();

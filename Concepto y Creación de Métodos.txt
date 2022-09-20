@@ -1,0 +1,15 @@
+CONCEPTO Y CREACIÓN DE MÉTODOS
+
+Un método es una acción o comportamiento de los objetos
+
+    public void método( ){
+        __________________________________________
+        __________________________________________
+    }
+
+Donde:
+
+** public es el modificador de acceso
+** void es una palabra reservada, del valor de retorno. Se usa cuando el método no retorna ningún valor.
+** método es el nombre del método creado para la clase
+** Entre los paréntesis están los argumentos del método. Son valores de entrada que necesita para calcular algo.

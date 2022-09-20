@@ -1,0 +1,16 @@
+MÉTODOS: PARÁMETROS Y ARGUMENTOS
+
+Un parámetro es una declaración de variable u objeto. Puede ser invocado en los métodos.
+Un argumento es un valor que se envía a un método que lo requiere desde que se creó inicialmente.
+
+Suponiendo que tengo un objeto llamado miAuto y un método llamado acelerar, para llamar el método, sería miAuto.acelerar();
+pero no se sabe cuanto acelero. Es aquí donde se usan los parámetros y los argumentos.
+
+    public void método( Int a, String b ){                          /*Esta es la declaración del método*/
+        __________________________________________
+        __________________________________________
+    }
+
+    objeto.método( 1, "hola" );                                    /*Esta es la invocación del método*/
+
+Resumiendo, un parámetro va dentro del método de la clase. Un argumento va dentro de la invocación del método del objeto.
