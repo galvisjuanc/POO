@@ -1,0 +1,23 @@
+MÉTODO CONSTRUCTOR
+
+Es un método especial de una clase que se invoca siempre que se crea un objeto de esa clase.
+
+Cuando se crea un objeto, ocurren 3 cosas:
+1. Se asigna memoria para el objeto.
+2. Se incializan los atributos de ese objeto.
+3. Se invoca al constructor de la clase que puede ser uno entre varios.
+
+Persona p1 = new Persona();
+
+En este caso el nombre del objeto más los paréntesis se conoce como el método constructor.
+
+Las características de los constructores son:
+1. Tiene el mismo nombre de la clase.
+2. No devuelve ningún valor.
+3. Debe declararse como público.
+
+SOBRECARGA DE MÉTODOS
+Se puede hacer sobrecarga de constructores siempre y cuando los parámetros sean de diferente tipo o hayan un
+número diferente de parámetros.
+Java no diferencia los métodos por el tipo de retorno que tenga. Si es void o int, no importa. Lo importante es que
+se cree un método que tenga parámetros diferentes o que sean de diferente tipo (valor entero int o valor flotante double)

@@ -1,0 +1,23 @@
+MÉTODO - RETORNO DE VALORES
+
+public int sumar (int a, int b){
+    int suma = a + b;
+    return suma;
+}
+
+Este método no es void. Por eso, tiene que retornar algo. Adicionalmente, cuando se crea el objeto, debe crearse una variable
+que guarde esa información que se está retornando. O si no se quiere, solo mostrar la información de ese objeto cuando se
+necesite.
+
+int suma = objeto.sumar(5, 4);
+System.out.println("La suma es: "+suma);
+
+Se puede retornar cualquier objeto
+
+public String saludar(String nombre){
+    String saludo = "Hola" + nombre;
+    return saludo;
+}
+
+String saludo = objeto.saludo("Alejandro");
+System.out.println(saludo);     // Esto imprime un mensaje que dice Hola Alejandro
