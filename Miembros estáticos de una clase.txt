@@ -1,0 +1,9 @@
+MIEMBROS ESTATICOS DE UNA CLASE
+
+Miembros de clase. Esto son los atributos y los métodos de una clase.
+
+Si uso la palabra static, va a causar que el atributo pertenezca a la clase y no al objeto.
+Es decir, si yo hago un cambio en algún atributo, causaré que todos los objetos se vean afectados por ese cambio.
+No necesitamos instanciar un objeto para llamar el atributo de la clase.
+
+También se pueden hacer estaticos los métodos. Esto causa que los objetos instanciados no puedan llamar estas funciones.
