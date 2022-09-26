@@ -111,7 +111,7 @@ public class Principal {
                 case 4: break;
 
                 default:
-                    System.out.println("Error, se confundió de opción de menú.");
+                    System.out.println("Error, se confundió de opción de menú!");
                     break;
             }
         }
