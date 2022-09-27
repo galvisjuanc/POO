@@ -1,0 +1,26 @@
+HERENCIA - POO
+
+Es una forma de reutilización de software en la que se crea una nueva clase al absorber los miembros de una ya existente.
+Deben haber mínimo dos clases.
+
+Persona (Clase) - Objeto Instanciado
+Atributos:                                              Métodos: + Persona(nombre, apellido, edad)
+- nombre: String                                        + getNombre(): String
+- apellidos: String                                     + getApellidos(): String
+- edad: int                                             + getEdad(): int
+
+Crear otra clase llamada Estudiante
+Estudiante(Clase) - Objeto instanciado de Persona
+Atributos:                                              Métodos:
+- nombre: String                                        + getNombre(): String
+- apellidos: String                                     + getApellidos(): String
+- edad: int                                             + getEdad(): int
+- codigoEstudiante: int                                 + Estudiante(nombre, apellido, edad, codigoEstudiante, notaFinal)
+- notaFinal: float                                      + mostrarDatos(): void
+
+Los atributos de Estudiante derivan de Persona, pero tiene sus atributos diferentes.
+A la clase Persona, se le llama Clase Padre o Super Clase.
+A la clase Estudiante, se le llama Clase Hija o Sub Clase.
+
+Para encontrar la clase hija, se usa la palabra "Es un". Se busca generalizar y particularizar los comentarios.
+Un estudiante "es una" persona.
