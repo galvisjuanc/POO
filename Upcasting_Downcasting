@@ -1,0 +1,36 @@
+UPCASTING
+
+La conversión ascendente o Upcasting se convierte en un supertipo, mientras que la conversión descendente se realiza en un subtipo.
+La conversión ascendente siempre está permitida, pero la conversión descendente implica una verificación de tipo y puede lanzar una ClassCastException.
+
+Cuando se quiere convertir una subclase en una superclase, se usa el upcasting. Por ejemplo, un objeto de la clase derivada siempre se podrá usar en el lugar de un objeto 
+de la clase base (que se cumple la relación "es un".
+
+Ejemplo:
+Persona per = new Empleado();
+
+DOWNCASTING
+
+Esta conversión descendente le dice al compilador que sabemos cuál es el tipo de tiempo de ejecución del objeto de Verdad. El compilador permitirá la conversión, pero seguirá 
+insertando una verificación de validez en el tiempo de ejecución para asegurarse de que la conversión tenga sentido.
+
+Cuando deseamos convertir una clase Super en una subclase, se usa el downcasting, y no es directamente posible hacerlo en Java. Explicitamente se tiene que hacer esto.
+
+Ejemplo:
+No se produce por defecto, ya que un objeto de la clase base no siempre es un objeto de la clase derivada.
+
+Alumno a = new Persona(); // Error
+
+Solo es posible en los casos en los que el objeto de la clase base realmente sea un objeto de la clase derivada. Estos casos se tendrán que indicar explícitamente 
+con un casting (con una asignación explícita de la clase).
+
+La conversión ascendente y descendente son una parte importante de Java, que nos permite crear programas complicados con una sintaxis simple, y nos brinda grandes ventajas, 
+como el polimorfismo o la agrupación de diferentes objetos.Java permite que un objeto de un tipo de subclase sea tratado como un objeto de cualquier tipo de superclase. 
+Esto se llama upcasting. Upcasting se realiza automáticamente, mientras que el downcasting debe ser realizado manualmente por el programador, 
+y voy a dar mi mejor esfuerzo para explicar por qué es así.
+
+La conversión ascendente y descendente NO son como lanzar primitivas de una a otra, y creo que eso es lo que causa mucha confusión cuando el programador comienza a 
+aprender a fundir objetos.
+
+Polimorfismo: todos los métodos en Java son virtuales por defecto. Esto significa que cualquier método puede ser anulado cuando se usa en herencia, a menos que ese 
+método se declare como final o estático.
