@@ -1,0 +1,25 @@
+CLASES Y MÉTODOS FINAL
+
+Un atributo final es una constante que permanece invariable a lo largo del programa. ahora, esto puede suceder con las
+clases y los métodos.
+
+Tengo una clase Padre llamada FIGURA, clases hijas llamadas FIGURA CERRADA, FIGURA ABIERTA y CUADRADO.
+
+                                                FIGURA
+                                         - tamaño : double
+
+                FIGURA CERRADA                                            FIGURA ABIERTA
+                - nlados: int
+               + dibujar(): void
+
+
+                  CUADRADO
+               - area: double
+               + dibujar(): void
+
+Una clase padre puede tener muchos hijos. Esto los haría muy extensos. En algunas ocasiones, se necesitan que las clases
+no tengan más hijos. Usando la palabra "final" en la clase FIGURA CERRADA, me aseguro que ninguna clase herede de la que
+se acabó de modificar. Por lo tanto, no existiría la clase CUADRADO.
+
+Si se hace lo mismo con los métodos, por ejemplo en FIGURA CERRADA, eso causaría que no puede existir un método que se llame
+igual en las clases hijas.
