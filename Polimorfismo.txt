@@ -1,0 +1,22 @@
+POLIMORFISMO
+
+En una relación de tipo herencia, un objeto de la superclase (clase Padre) puede almacenar un objeto de cualquiera de
+sus subclases.
+Esto significa que la clase padre o superclase es compatible con los tipos que derivan de ella. Pero no al revés.
+Poli significa muchos
+Morfismo significa forma
+
+                                                Vehículo
+                                           # matricula: String
+                                           # marca: String
+                                           # modelo: String
+                                         + mostrarDatos(): String
+
+         VehículoTurismo                   VehículoDeportivo                    VehículoFurgoneta
+      - numeroPuertas: int                 - cilindrada: int                     - carga : int
+    + mostrarDatos(): String            + mostrarDatos(): String            + mostrarDatos(): String
+
+Vehiculo miVehiculo = new Vehiculo("12GB", "Ferrari", "A8");
+Vehiculo miVehiculo2 = new VehiculoTurismo("12GB", "Ferrari", "A8", 4);
+Vehiculo miVehiculo3 = new VehiculoDeportivo("12GB", "Ferrari", "A8", 500);
+

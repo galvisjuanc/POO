@@ -1,0 +1,34 @@
+CLASES Y MÉTODOS ABSTRACTOS
+
+Una clase abstracta se usa solo como super clase (clase padre). Tiene que tener mínimo un hijo.
+No se pueden instanciar objetos.
+Sirve para proporcionar una super clase apropiada a partir de la cuál heredan otras clases.
+
+Son clases muy generales. Como el ejemplo:
+
+                                            SerVivo
+
+                                     + alimentarse(): void
+
+                 Planta                                                 Animal
+
+            + alimentarse(): void                               + alimentarse(): void
+
+                                                    AnimalCarnivoro               AnimalHerbivoro
+
+                                                 + alimentarse(): void         + alimentarse(): void
+
+No se podría implementar el método alimentarse() en SerVivo porque es muy genérico. Pero si estoy seguro que todo ser vivo
+tiene que alimentarse. Por eso será abstract, porque estará en una clase padre y no se sabe como se va a implementar en
+alguna de las clases hijas.
+
+Si tengo un método abstracto, si o si la clase debe ser abstracta. Esto implica que:
+
+* El método no se tiene que definir en la clase padre, pero si o si debe implementarse en alguna de las clases hijas.
+
+Ahora, la clase Planta no puede ser abstracta porque no tiene hijos y eso no la hace una super clase. Ahora, sus métodos
+se pueden implementar sin problemas.
+
+Pero con la clase Animal, también sería abstract, pero no hay necesidad de definirlo con los métodos, pero si con la clase.
+
+Ahora, las clases de AnimalCarnivoro y AnimalHerbivoro si se pueden implementar.
