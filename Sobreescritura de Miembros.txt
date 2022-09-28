@@ -1,0 +1,28 @@
+SOBREESCRITURA DE MIEMBROS
+
+Una clase puede tener un método que se llame igual, pero que tenga diferentes parámetros.
+
+Esto no es sobreescritura de miembros! Es una sobrecarga de miembros! La sobrecarga de miembros se da en la misma clase como
+el ejemplo que pondré a continuación.
+
+public class Persona{
+
+    public void cantar(){
+        System.out.println("Estoy cantando");
+    }
+
+    public void cantar(String cancion){
+        System.out.println("Estoy cantando la canción:"+cancion);
+    }
+}
+
+Pero para sobreescribir miembros, se utiliza el comando Override.
+                                        ANIMAL
+
+                                   + comer(): void
+
+          PERSONA                       PERRO                       VACA
+
+       + comer(): void              + comer(): void           + comer(): void
+
+Los tres comen pero de forma distinta. Para eso, se tiene que sobreescribir los miembros para que se acoplen a cada clase.
