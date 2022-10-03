@@ -1,0 +1,36 @@
+HERENCIA MULTIPLE
+
+Hace referencia a la característica de los lenguajes de POO en la que una clase puede heredar atributos y métodos de más
+de una superclase.
+
+                                            PERSONA (clase padre)
+
+                           MUSICO (subclase)                        ESTUDIANTE (subclase)
+
+
+                    MUSICOESTUDIANTE (subclase que tiene dos clases padre - MUSICO Y ESTUDIANTE)
+
+En Java no se puede trabajar directamente con clases padres a la vez. Por eso se usa el concepto de interfaces.
+
+INTERFACES EN JAVA
+
+* Permite simular la herencia múltiple (En otros lenguajes, no se necesitan las interfaces como C++, Python).
+* La interfaz solo es public o default
+* Todos sus métodos son abstractos
+* Todos sus atributos son final
+
+                                            PERSONA (interface)
+
+                                        abstract + hablar(): void
+
+
+                           MUSICO (interface)                        ESTUDIANTE (interface)
+
+                    abstract + tocarMusica(): void              abstract + estudiar(): void
+
+
+                                            MUSICOESTUDIANTE ()
+
+                                            + hablar(): void
+                                            + tocarMusica(): void
+                                            + estudiar(): void
